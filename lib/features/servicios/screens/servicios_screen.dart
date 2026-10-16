@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/servicio_transporte_model.dart';
-import '../utils/servicioTransporte_utils.dart';
+import '../utils/servicio_transporte_utils.dart';
 import '../widgets/tarjeta_servicio_widget.dart';
 
 class ServiciosScreen extends StatefulWidget {
