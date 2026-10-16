@@ -53,11 +53,11 @@
 | Creación del repositorio | Nallely | Completado |
 | Organización de carpetas | Nallely | Completado |
 | Definición de contratos de datos | Nallely | Completado |
-| Creación de usuarios.json | Nallely | Pendiente |
-| Creación de servicios.json | Nallely | Pendiente |
-| Modelos y lectores de usuarios y servicios | Nallely | Pendiente |
-| Inicio de sesión | Nallely | Pendiente |
-| Catálogo de servicios | Nallely | Pendiente |
+| Creación de usuarios.json | Nallely | Completado |
+| Creación de servicios.json | Nallely | Completado |
+| Modelos y lectores de usuarios y servicios | Nallely | Completado |
+| Inicio de sesión | Nallely | Implementado; pendiente de validación final |
+| Catálogo de servicios | Nallely | Implementado; pendiente de validación final |
 | Clonación y revisión de PR | Abelardo | Pendiente |
 | Lugares y rutas | Abelardo | Pendiente |
 | Detalle del servicio | Abelardo | Pendiente |
@@ -68,6 +68,15 @@
 | Integración de pantallas | Ambos | Pendiente |
 | Cinco conflictos de Git | Ambos | Pendiente |
 | Pruebas y documentación final | Ambos | Pendiente |
+
+### Pendientes del acceso y catálogo
+
+- Completar las pruebas manuales del login y catálogo.
+- Actualizar y ejecutar las pruebas de test/widget_test.dart.
+- Confirmar que flutter analyze termina sin observaciones.
+- Actualizar el contrato de imágenes: actualmente se usan archivos locales.
+- Guardar evidencias del login y los tres servicios.
+- Conectar el detalle cuando esté implementado.
 
 ## 4. Acuerdos de colaboración
 
