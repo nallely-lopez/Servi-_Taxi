@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/usuario_model.dart';
 import '../utils/usuario_utils.dart';
 import 'login_diseno_screen.dart';
+import '../../servicios/screens/servicios_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -49,8 +50,9 @@ class _LoginScreenState extends State<LoginScreen> {
       }
 
       if (usuarioEncontrado != null) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Bienvenida, ${usuarioEncontrado.nombre}')),
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => const ServiciosScreen()),
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
