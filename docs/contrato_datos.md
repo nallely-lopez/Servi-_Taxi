@@ -1,4 +1,4 @@
-# Contratos de datos — Servi Taxi
+# Contratos de datos - Servi Taxi
 
 ## 1. Usuarios
 
